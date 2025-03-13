@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    font-size: 2rem;
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-family: sans-serif;
+    background: white
+    
+}
+
+.card{
+    width: 40rem;
+    height: 40rem;
+    border-radius: 5rem;
+    box-shadow: 0 0 5px 0 black;
+    flex-shrink: 0;
+    flex-wrap: wrap;
+    box-shadow: 0px 1rem 2rem 0px rgba(0,0,0,0.2)
+    
+}
+
+.card--stopwatch{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    border-radius: 5rem;
+    flex-direction: column;
+    width: 40rem;
+    height: 40rem;
+    flex-shrink: 0;
+    flex-wrap: wrap;
+    gap: 2rem;
+    background: darkblue;
+    color: white;
+    
+    
+    box-shadow: 0px 1rem 2rem 0px rgba(0,0,0,0.2)
+        
+}
+
+.card--buy{
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    gap: 2rem;
+}
+
+.card--buy img{
+    height: 70%;
+    width: 100%;
+}
+
+.card--buy p{
+  font-size: 75%;
+  height: 20%;
+}
+
+.card--slider{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    padding: 4rem;
+}
+
+.card--slider > h2{
+    font-size: 400%;
+}
+
+.card--slider > input{
+    width: 100%;
+    -webkit-appearance: none;
+    appearance: none;
+    border-radius: 3rem;
+    height: 1.8rem;
+    background: linear-gradient(to right, #ef32d9, #89fffd); 
+}
+
+
+
+.card--slider > input::-moz-range-thumb{
+    appearance: none;
+    -webkit-appearance: none;
+    height: 3rem;
+    width: 3rem;
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+    background: linear-gradient(to right, #ef32d9, #89fffd); 
+}
+
+
+
+
+
+
+
+
+    
+
+
+.button{
+    padding: 1rem 2rem;
+    font-size: 2rem;
+    font-family: sans-serif;
+}
+
+.button--start{
+    background: blue;
+    color: white;
+    border-radius: 0.7rem;
+}
+
+.button--stop{
+    background: blue;
+    color: white;
+    border-radius: 0.7rem;
+}
+
+.button--reset{
+    background: blue;
+    color: white;
+    border-radius: 0.7rem;
+}
+
+.timerText{
+  font-size: 200%;
+}
