@@ -63,7 +63,7 @@ slider.oninput = function(){
 
 const paragraph = document.getElementById("js--text")
 //data ophalen
-let data = fetch("../data.json");
+let data = fetch("data.json");
 
 data.then(function(BinnenGekomenData) {
   console.log(BinnenGekomenData);
